@@ -1,12 +1,16 @@
-import 'App.css';
+import './App.css';
+import { Route, Router, Routes } from 'react-router-dom';
 import Header from './components/common/header/Header';
+
+
 
 const App = () => {
     return (
         <>
-            <h1>
-                <Header />
-            </h1>
+            <Header />
+            <Routes>
+                {/* <Route path='/' element={<Homepages />} /> */}
+            </Routes>
         </>
     );
 };
