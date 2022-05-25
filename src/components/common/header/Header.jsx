@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Head from './Head';
 import './header.css';
 
 const Header = () => {
+    const [navbar, setNavbar] = useState(false);
     return (
         <>
             <Head />
             <header>
                 <div className='container paddingSmall'>
                     <nav>
-                        <ul>
+                        <ul
+                            className={navbar ? 'navbar' : 'flex'}
+                            onClick={() => setNavbar(false)}
+                        >
                             <li>
                                 <Link to='/'>Home</Link>
                             </li>
@@ -33,8 +37,15 @@ const Header = () => {
                                 <Link to='/reviews'>Reviews</Link>
                             </li>
                         </ul>
-                        <button className='barIco'>
-                            <i class='fa fa-bars'></i>
+                        <button
+                            className='barIco'
+                            onClick={() => setNavbar(!navbar)}
+                        >
+                            {navbar ? (
+                                <i class='fa fa-times'></i>
+                            ) : (
+                                <i class='fa fa-bars'></i>
+                            )}
                         </button>
                     </nav>
                 </div>

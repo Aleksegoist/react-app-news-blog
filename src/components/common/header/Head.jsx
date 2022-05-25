@@ -8,9 +8,6 @@ const Head = () => {
                     <div className='logo'>
                         <img src='../images/logo.png' alt='' />
                     </div>
-                    {/* <div className='ad'>
-                        <img src='../images/header.png' alt='' />
-                    </div> */}
                 </div>
             </section>
         </>
