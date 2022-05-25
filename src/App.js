@@ -1,6 +1,7 @@
 import './App.css';
-import { Route, Router, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Header from './components/common/header/Header';
+import Homepages from './components/home/Homepages';
 
 
 
@@ -9,7 +10,7 @@ const App = () => {
         <>
             <Header />
             <Routes>
-                {/* <Route path='/' element={<Homepages />} /> */}
+                <Route path='/' element={<Homepages />} />
             </Routes>
         </>
     );

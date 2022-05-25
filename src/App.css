@@ -53,3 +53,13 @@ ul {
 .paddingSmall {
     padding: 20px 0;
 }
+
+.category {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    background-color: purple;
+}
