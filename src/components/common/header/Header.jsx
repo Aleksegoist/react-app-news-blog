@@ -34,7 +34,7 @@ const Header = () => {
                             </li>
                         </ul>
                         <button className='barIco'>
-                            <i className='fa fa-balls'></i>
+                            <i class='fa fa-bars'></i>
                         </button>
                     </nav>
                 </div>

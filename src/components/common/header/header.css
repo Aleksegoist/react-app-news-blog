@@ -9,3 +9,22 @@
 /* .ad img {
     width: 200px;
 } */
+
+header {
+    background-color: #000;
+    color: #fff;
+}
+
+header li {
+    margin-right: 30px;
+    transition: 0.5s;
+}
+
+header li a {
+    color: #fff;
+    transition: 0.5s;
+}
+header li a:hover {
+    color: crimson;
+    cursor: pointer;
+}

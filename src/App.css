@@ -26,6 +26,11 @@ a {
     text-decoration: none;
 }
 
+li,
+ul {
+    list-style-type: none;
+}
+
 .container {
     max-width: 90%;
     margin: auto;
