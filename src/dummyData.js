@@ -3,10 +3,10 @@ export const hero = [
         id: 1,
         cover: "../images/hero/hero1.jpg",
         category: "featured",
-        title: "Google To Boost Android Security In Few Days",
-        authorName: "Salman",
+        title: "Boeing Changes Will Make Planes Safer, Executive Says",
+        authorName: "Andrew Tangel",
         authorImg: "../images/author.jpg",
-        time: "5 Jun - 2022",
+        time: "24 May - 2022",
         desc: [
             {
                 para1: "You audience. Least, the recently his repeat the this avarice for the have and was on would before the concise bedding were hall politely name be regretting have of even five of it the his are there again. Word seven designer far lady problem will have work with you to fully understand your business to achieve.",
@@ -38,10 +38,10 @@ export const hero = [
         id: 2,
         cover: "../images/hero/hero2.jpg",
         category: "sport",
-        title: "More than billion football fans attend Brazil world cup",
-        authorName: "alex",
+        title: "Max Verstappen Leads F1’s Changing of the Guard",
+        authorName: "Joshua Robinson",
         authorImg: "../images/author.jpg",
-        time: "12 Aug - 2022",
+        time: "6 May - 2022",
         desc: [
             {
                 para1: "You audience. Least, the recently his repeat the this avarice for the have and was on would before the concise bedding were hall politely name be regretting have of even five of it the his are there again. Word seven designer far lady problem will have work with you to fully understand your business to achieve.",
@@ -452,6 +452,4 @@ export const discover = [
         cover: "../images/discover/d6.jpg",
     },
 ]
-{
 
-}

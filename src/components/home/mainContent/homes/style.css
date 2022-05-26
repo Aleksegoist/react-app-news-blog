@@ -5,8 +5,10 @@ main .container {
 
 .mainContent {
     width: 75%;
+    background-color: cadetblue;
 }
 
 .sideContent {
     width: 23%;
+    background-color: rebeccapurple;
 }
