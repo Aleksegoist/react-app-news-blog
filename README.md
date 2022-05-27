@@ -3,4 +3,4 @@
 
 Link App - here: [NEWSLAB](https://news-app-pearl.vercel.app).
 
-![This is an image](https://ibb.co/7JTHYRb)
+![This is an image](https://i.ibb.co/hRnk7ZC/vercel-image.png)
