@@ -10,7 +10,6 @@ const Footer = () => {
                         <h1 className='footerLogo'>
                             NEWS<span>LAB</span>
                         </h1>
-                        {/* <img src='../images/logo.png' alt='' /> */}
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Quod nesciunt molestiae vitae quam reiciendis
