@@ -448,7 +448,7 @@ export const discover = [
         cover: "../images/discover/d5.jpg",
     },
     {
-        title: "nitendo",
+        title: "Sony",
         cover: "../images/discover/d6.jpg",
     },
 ]
